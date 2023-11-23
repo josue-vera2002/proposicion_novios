@@ -1,0 +1,121 @@
+div {
+    margin: 0;
+  }
+  
+  .contenedor {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    position: relative; /* Añadido para que los botones se posicionen de acuerdo a este elemento */
+  }
+  
+  p {
+    font-size: xx-large;
+    padding: 5%;
+  }
+  
+  button {
+    font-size: xx-large;
+    padding: 0.60em;
+    box-sizing: border-box;
+  }
+  
+  #yesBtn {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+  }
+  
+  #noBtn {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    outline: none;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%); /* Centrar el botón en relación al punto medio del contenedor */
+    transition: transform 0.2s ease-out;
+  }
+  
+  #noBtn:hover {
+    transform: translate(calc(-50% + var(--randomX)), calc(-50% + var(--randomY))); /* Mover el botón de manera relativa */
+  }
+  
+  body {
+    background-image: linear-gradient(135deg, #00e7d4, #505488, #ef3f80, #161569, #505488, #00E7D4);
+    background-size: 500%;
+    animation: fanimado 60s infinite;
+  }
+  
+  @keyframes fanimado {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }div {
+    margin: 0;
+  }
+  
+  .contenedor {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    position: relative; /* Añadido para que los botones se posicionen de acuerdo a este elemento */
+  }
+  
+  p {
+    font-size: xx-large;
+    padding: 5%;
+  }
+  
+  button {
+    font-size: xx-large;
+    padding: 0.60em;
+    box-sizing: border-box;
+  }
+  
+  #yesBtn {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+  }
+  
+  #noBtn {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    outline: none;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%); /* Centrar el botón en relación al punto medio del contenedor */
+    transition: transform 0.2s ease-out;
+  }
+  
+  #noBtn:hover {
+    transform: translate(calc(-50% + var(--randomX)), calc(-50% + var(--randomY))); /* Mover el botón de manera relativa */
+  }
+  
+  body {
+    background-image: linear-gradient(135deg, #00e7d4, #505488, #ef3f80, #161569, #505488, #00E7D4);
+    background-size: 500%;
+    animation: fanimado 60s infinite;
+  }
+  
+  @keyframes fanimado {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
